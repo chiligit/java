@@ -9,5 +9,3 @@ RUN curl -fsSL http://archive.apache.org/dist/maven/maven-3/$MAVEN_VERSION/binar
 ENV MAVEN_HOME /usr/share/maven
 
 CMD ["mvn --help"]
-
-CMD ["git --help"]
