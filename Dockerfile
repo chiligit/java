@@ -14,5 +14,5 @@ RUN echo "hello world" > /test/hello
 VOLUME /test
 
 WORKDIR /opt
-RUN git clone https://github.com/chiligit/java-maven-git.git
+RUN git clone https://github.com/chiligit/java.git
 
